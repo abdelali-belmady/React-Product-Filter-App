@@ -58,19 +58,7 @@ This React project displays a list of products fetched from an API and allows us
 
 ---
 
-### **Project Structure**
 
-```
-src/
-├── components/
-│   ├── ProductList.js    // Main component managing products and filters
-│   ├── Products.js       // Component to render individual product details
-├── style.css             // Custom styles
-├── App.js                // Application entry point
-└── index.js              // ReactDOM rendering
-```
-
----
 
 ### **How to Use**
 
@@ -85,30 +73,5 @@ src/
 
 4. **View Product Details**:  
    Each product's information, including title, price, description, category, image, and rating, is displayed in a table format.
-
----
-
-### **Future Enhancements**
-
-- Add pagination for large product lists.
-- Implement a "Sort by" feature for price, rating, etc.
-- Improve product card visuals using a grid layout.
-- Add unit tests using Jest or React Testing Library.
-
----
-
-### **API Endpoints**
-
-- **Products**:  
-  `https://fakestoreapi.com/products`
-
-- **Categories**:  
-  `https://fakestoreapi.com/products/categories`
-
----
-
-### **License**
-
-This project is open-source and free to use. Contributions are welcome.
 
 ---
